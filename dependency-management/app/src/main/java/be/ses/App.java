@@ -16,7 +16,6 @@ public class App {
 
         int width = 4;
         int height = 4;
-        
         // Ask the user which index to test
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the index you want to test (0 - " + (grid.size() - 1) + "): ");
