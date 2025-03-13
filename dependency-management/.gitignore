@@ -3,5 +3,3 @@
 
 # Ignore Gradle build output directory
 build
-./dependency-management/checkneighbours/.gradle/
-./dependency-management/checkneighbours/build/
