@@ -21,13 +21,13 @@ public class CheckNeighboursInGrid {
         
         // Direction vectors for immediate neighbors (including diagonals)
         int[][] directions = {
+            {-1, -1},
+            {-1, 0},
+            {-1, 1},
             {0, -1},  // Left
             {0, 1},   // Right
-            {-1, 0},  // Up
-            {1, 0},   // Down
-            {-1, -1}, // Top-left diagonal
-            {-1, 1},  // Top-right diagonal
             {1, -1},  // Bottom-left diagonal
+            {1, 0},   // Down
             {1, 1}    // Bottom-right diagonal
         };
         
