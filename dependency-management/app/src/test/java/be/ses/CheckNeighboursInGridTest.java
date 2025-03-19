@@ -50,7 +50,7 @@ public class CheckNeighboursInGridTest {
     }
 
     @Test
-    public void gegevenElementInRechterRand_wanneerGetSameNeighboursIds_danCorrecteIds() {
+    public void gegevenGeenBuren_wanneerGetSameNeighboursIds_GeenNeighboursFound() {
         // 1. Arrange
         CheckNeighboursInGrid checkNeighbours = new CheckNeighboursInGrid();
         List<Integer> grid = Arrays.asList(
