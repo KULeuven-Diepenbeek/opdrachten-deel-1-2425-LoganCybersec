@@ -12,7 +12,11 @@ public class CheckNeighboursInGrid {
         for (int value : grid) {
             gridList.add(value);
         }
-        
+
+        if (indexToCheck < 0 || indexToCheck >= gridList.size()) {
+            throw new IllegalArgumentException("Element not found in grid");
+        }
+
         int valueToCheck = gridList.get(indexToCheck);
         List<Integer> result = new ArrayList<>();
         
