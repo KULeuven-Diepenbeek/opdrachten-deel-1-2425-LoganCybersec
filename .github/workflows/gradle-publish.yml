@@ -12,5 +12,5 @@ jobs:
           distribution: 'adopt'
       - name: Build with Gradle
         run: |
-          chmod +x gradlew
-          ./gradlew build
+          chmod +x ./dependency-management/gradlew
+          ./dependency-management/gradlew build
